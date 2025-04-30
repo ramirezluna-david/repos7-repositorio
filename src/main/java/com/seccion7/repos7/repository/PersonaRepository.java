@@ -15,6 +15,7 @@ public class PersonaRepository {
     public Persona create(Persona persona)
     {
         personas.add(persona);
+        System.out.println(personas.toString());
         return persona;
     }
 }
